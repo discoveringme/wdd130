@@ -47,13 +47,13 @@ nav a:hover {
     border-radius: 5px;
 }
 .rivers-card {
-    margin-top: 200px 0;
+    margin: 200px 0;
 }
 .camping-card {
-    margin-top: 200px 0;
+    margin: 200px 0;
 }
 .rapids-card {
-    margin-top: 200px 0;
+    margin: 200px 0;
 }
 .card-img {
     border: 10px solid #ffde5c;
