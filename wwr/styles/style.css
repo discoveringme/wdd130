@@ -1,16 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Khand:wght@300&display=swap');
 
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 #background { 
     height: 725px;
 }
 
 body {
     background-color: #455624; 
+    font-family: "Khand", Arial, Helvetica;
+    font-size: 22em;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #ffde5c;
 }
 nav a {
+    text-align: center;
     color: black;
+    padding: 35px;
 }
 nav a:hover {
     background-color: black;
@@ -21,11 +32,34 @@ nav a:hover {
     background-color: black;
     color: #e0e0e0;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
     background-color: black;
     color: #e0e0e0;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.rivers-card {
+    margin-top: 200px 0;
+}
+.camping-card {
+    margin-top: 200px 0;
+}
+.rapids-card {
+    margin-top: 200px 0;
+}
+.card-img {
+    border: 10px solid #ffde5c;
+}
+main section img {
+    box-sizing: border-box;
 }
 .join:hover {
     color: #ffde5c;
@@ -34,21 +68,34 @@ nav a:hover {
     background-color: black;
     color: #ffde5c;
 }
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
 #background {
     background-color: #455624;
 }
 .msg {
     background-color: #455624;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: black;
+    font-family: "Delicious Handrawn", Arial, Helvetica;
 }
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #877b66;
     color: #ffde5c;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: white ;
@@ -63,8 +110,17 @@ footer p {
 footer p:hover {
     text-decoration: underline;
 }
+footer.social img {
+    padding-top: 15px;
+}
 .home-title {
     color: black;
+    font-family: "Delicious Handrawn", Arial, Helvetica;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2 {
+    margin: 0;
 }
 h4 {
     color: black;
@@ -72,8 +128,18 @@ h4 {
 .logo {
     width: 80px;
 }
+#logo-link {
+    padding-top: 15px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+#hero-msg h4 {
+    text-align: center;
 }
 #hero-img {
     width: 100%;
